@@ -2,6 +2,9 @@ checks:
     python:
         code_rating: true
         duplicate_code: true
+        typecheck_maybe_no_member: true
+        classes_valid_slots: true
+        basic_missing_reversed_argument: true
 build:
     nodes:
         analysis:
@@ -14,14 +17,14 @@ build:
                     -
                         command: pylint-run
                         use_website_config: true
-#        coverage:
-#            tests:
-#                override:
-#                    - command: './run-tests.sh'
-#                      coverage:
-#                          file: '.coverage'
-#                          config_file: '.coveragerc'
-#                          format: 'py-cc'
+        coverage:
+            tests:
+                override:
+                    - command: './run-tests.sh'
+                      coverage:
+                          file: '.coverage'
+                          config_file: '.coveragerc'
+                          format: 'py-cc'
         tests: true
 filter:
     excluded_paths:
