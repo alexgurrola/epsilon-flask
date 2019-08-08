@@ -26,7 +26,7 @@ setup(
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version=__version__,
-    description='Mongo ORM',
+    description='REST API Boilerplate',
     long_description=long_description,
 
     # The project's main homepage.
@@ -62,7 +62,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='data mongo rest api',
+    keywords='data mongo mysql rest api boilerplate',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
