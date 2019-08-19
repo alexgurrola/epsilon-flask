@@ -1,6 +1,10 @@
 epsilon
 ========
 
+.. image:: https://api.codacy.com/project/badge/Grade/3c6b817f7c1f40a588ea4207b72a5354
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/app/alexgurrola/epsilon?utm_source=github.com&utm_medium=referral&utm_content=alexgurrola/epsilon&utm_campaign=Badge_Grade_Dashboard
+
 .. image:: https://travis-ci.com/alexgurrola/epsilon.svg?branch=master
     :target: https://travis-ci.com/alexgurrola/epsilon
 
